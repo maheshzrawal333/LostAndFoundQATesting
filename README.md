@@ -18,7 +18,7 @@ Automated end-to-end UI tests for **Lost & Found Nepal**, written with **Seleniu
 | Repo | Role | |
 |---|---|---|
 | [LostAndFoundWeb](https://github.com/maheshzrawal333/LostAndFoundWeb) | React frontend | The UI these tests drive |
-| [LostAndFoundBackend](https://github.com/maheshzrawal333/LostAndFoundBackend) | Spring Boot API, auth, database, images, email | Exercised indirectly through the UI |
+| [LostAndFoundBackend](https://github.com/maheshzrawal333/LostAndFoundBackend) | Spring Boot API, auth, database, images, email | Exercised indirectly here; has its own Postman API tests |
 | **LostAndFoundQATesting** | Selenium + TestNG end-to-end tests | 👈 *you are here* |
 
 ```mermaid
@@ -28,6 +28,8 @@ flowchart LR
 ```
 
 These are **end-to-end tests**. A passing run means the [frontend](https://github.com/maheshzrawal333/LostAndFoundWeb) and the [backend](https://github.com/maheshzrawal333/LostAndFoundBackend) are working together. A failure could come from either side, so check both when something breaks.
+
+The backend repo also has **Postman API automation tests** that call the API directly, with no browser involved. If a UI test fails, run those first. They help you tell whether the problem is in the API or in the UI.
 
 ## 🎯 What's tested
 
