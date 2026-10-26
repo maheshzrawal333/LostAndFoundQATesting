@@ -63,7 +63,7 @@ mvn test
 
 | Target | How |
 |---|---|
-| **Live site** | Use `https://lostandfoundnepal.pages.dev/` as the base URL |
+| **Live site** | Use `https://lostandfoundnepal.com` as the base URL |
 | **Local** | Start the [backend](https://github.com/maheshzrawal333/LostAndFoundBackend), then the [frontend](https://github.com/maheshzrawal333/LostAndFoundWeb), and use the local frontend URL (for example `http://localhost:5173`) |
 
 Set the base URL wherever your tests define it.
