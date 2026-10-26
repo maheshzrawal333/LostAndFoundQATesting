@@ -2,7 +2,7 @@
 
 Automated end-to-end UI tests for **Lost & Found Nepal**, written with **Selenium WebDriver** and **TestNG**. The suite opens the web app in a real browser and checks that it works the way a user would expect.
 
-🌐 **App under test:** [lostandfoundnepal.pages.dev](https://lostandfoundnepal.pages.dev/)
+🌐 **App under test:** [lostandfoundnepal.com](https://lostandfoundnepal.com)
 
 > **A personal project.** I built this on my own to practise test automation alongside the app itself. It isn't affiliated with any organisation.
 
@@ -51,7 +51,7 @@ Browser-level checks of the app's main user flows, such as loading the site, sig
 - JDK 23 (as configured in `pom.xml`)
 - Maven
 - A browser such as Chrome. Selenium Manager downloads the matching driver automatically.
-- A running target: either the [live site](https://lostandfoundnepal.pages.dev/) or a local frontend and backend
+- A running target: either the [live site](https://lostandfoundnepal.com) or a local frontend and backend
 
 ```bash
 git clone https://github.com/maheshzrawal333/LostAndFoundQATesting.git
